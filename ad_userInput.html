@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Addition Of Two Numbers With User Input</h1>
+	<div>
+		<input type="" name="" id="first">
+		<br>
+		<br>
+		<input type="" name="" id="second">
+		<br>
+		<br>
+		<button id="add">Addition</button>
+		<br>
+		<br>
+		<input type="" name="" id="result">
+	</div>	
+
+ <script type="text/javascript">
+ 	 let add=document.getElementById("add");
+ 	 add.addEventListener("click",()=>{
+ 	 	    var value1= parseInt(document.getElementById("first").value);
+            var value2=parseInt(document.getElementById("second").value);
+            var sum=value1+value2;
+            document.getElementById("result").value=sum;
+
+ 	 	  
+ 	 });
+ </script>  	
+
+</body>
+</html>

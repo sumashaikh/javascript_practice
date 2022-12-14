@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	body{
+		 text-align: center;
+
+}
+</style>
+</head>
+<body>
+	<h1>Calculate the Area of triangle</h1>
+	<div>
+		<input type="" name="" id="base">
+		<input type="" name="" id="height">
+    </div>
+    <div>
+    	<button id="calci">calculate</button>
+    	<span id="answer"></span>
+    </div>
+
+<script type="text/javascript">
+	
+	let calci=document.getElementById("calci");
+	calci.addEventListener("click",()=>{
+		 let base=parseFloat(document.getElementById("base").value);
+	     let height=parseFloat(document.getElementById("height").value);
+	     const areaValue = (base * height) / 2;
+
+		 document.getElementById("answer").innerHTML=areaValue;
+
+	});
+	
+</script>	
+
+
+</body>
+</html>

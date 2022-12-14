@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Calculate Of Squre Root</h1>
+	<div>
+	    <input type="" name="" id="num">
+	    <br>
+	    <br>
+	    <button id="calculate">calculate Squreroot</button>
+	    <br>
+	    <br>
+	    <input type="" name="" id="result">
+	</div>    
+
+
+
+<script type="text/javascript">
+	let cal=document.getElementById("calculate");
+	 cal.addEventListener("click",()=>{
+	 	  let num=parseFloat(document.getElementById("num").value);
+	 	  let sqrut=num**0.5;
+	 	      document.getElementById("result").value=sqrut;
+
+	 });
+	
+</script>	
+</body>
+</html>

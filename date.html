@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript program</title>
+</head>
+<body>
+	<h1>1. Write a JavaScript program to display the current day and time in the following format.  </h1>
+<div id="date_show">
+	<span></span>
+</div>
+<script type="text/javascript">
+        var today = new Date();
+
+        var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+        document.getElementById("date_show").innerHTML=time;
+
+</script>
+
+</script>	
+</body>
+</html>
